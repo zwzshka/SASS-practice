@@ -1,0 +1,332 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-size: inherit;
+}
+
+input, button {
+  border: none;
+  font-family: inherit;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+}
+
+input:focus, button:focus {
+  outline: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.nav {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.navigation-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.navigation-list li:not(:last-child) {
+  margin-right: 42px;
+}
+.navigation-list a {
+  color: #696871;
+  font-weight: 700;
+}
+.navigation-list a.active, .navigation-list a:hover {
+  color: #19191B;
+}
+.navigation-list a.active {
+  text-decoration: underline;
+  text-decoration-color: #5454D4;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+}
+
+.button {
+  display: inline-block;
+  width: 211px;
+  height: 60px;
+  border-radius: 10px;
+  font-family: DM Sans;
+  font-size: 17px;
+  line-height: 19.92px;
+  letter-spacing: -0.5314737558px;
+  text-align: center;
+  padding-left: 59px;
+  padding-right: 60px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  line-height: 19.92px;
+  color: #FFFFFF;
+  -webkit-transition: background-color 0.2s ease-in;
+  transition: background-color 0.2s ease-in;
+}
+
+.btn-color1 {
+  background-color: #FF7143;
+}
+.btn-color1:hover {
+  background-color: #f95b26;
+}
+
+.btn-color2 {
+  background-color: #5454D4;
+}
+.btn-color2:hover {
+  background-color: #3f3fd5;
+}
+
+.header_text {
+  width: 459px;
+}
+
+.header_title {
+  font-size: 80px;
+  margin-bottom: 30px;
+  line-height: 77px;
+  letter-spacing: -2.5010533333px;
+}
+
+.header_text p {
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.6252632141px;
+  color: #696871;
+  margin-bottom: 50px;
+}
+
+.start_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 311px;
+  cursor: pointer;
+}
+
+.clients {
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.base_row {
+  padding-bottom: 138px;
+}
+
+.base_text {
+  width: 459px;
+}
+
+.base_title {
+  font-family: DM Sans;
+  font-size: 50px;
+  line-height: 57px;
+  letter-spacing: -1.5631583929px;
+  padding-bottom: 30px;
+}
+
+.base_text p {
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.6252632141px;
+  color: #696871;
+  padding-bottom: 30px;
+}
+
+.base_text a {
+  color: #5454D4;
+  cursor: pointer;
+}
+.base_text a:hover {
+  color: #3f3fd5;
+}
+
+.bit_cards {
+  color: #19191B;
+  padding-bottom: 150px;
+}
+.bit_cards .bit_card {
+  max-width: 307px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.bit_cards img {
+  width: 151px;
+  height: auto;
+  display: block;
+}
+.bit_cards .bit_card_text h3 {
+  font-family: DM Sans;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.7503160238px;
+  text-align: center;
+}
+.bit_cards .bit_card_text p {
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.5002105832px;
+  text-align: center;
+  color: #696871;
+}
+
+.plan .plan_text {
+  width: 523px;
+  font-family: DM Sans;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1px;
+}
+
+.double_button a {
+  background-color: #5454D4;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 0px 10px 10px 0px;
+  font-family: DM Sans;
+  font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: -0.5002105832px;
+  color: #FFFFFF;
+}
+.double_button a:hover {
+  background-color: #F7F7FB;
+  color: #5454D4;
+}
+.double_button .left {
+  border-radius: 10px 0px 0px 10px;
+  margin-right: -4px;
+}
+
+.cards .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F8F8F8;
+  width: 330px;
+  min-width: 330px;
+  height: 441px;
+  padding-top: 34px;
+  border-radius: 10px;
+  margin: 9px;
+}
+.cards .card:hover {
+  background-color: #FF7143;
+  color: #FFFFFF;
+}
+.cards .card:hover h4 {
+  color: #FFFFFF;
+}
+.cards .card:hover button {
+  background-color: #9F3919;
+  color: #FFFFFF;
+  border: none;
+}
+.cards .card:hover button:hover {
+  background-color: #FFFFFF;
+  color: #5454D4;
+}
+.cards p {
+  width: 138px;
+  font-family: DM Sans;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.5627369285px;
+  text-align: center;
+  padding-bottom: 28px;
+}
+.cards h4 {
+  font-family: DM Sans;
+  font-size: 60px;
+  line-height: 56px;
+  letter-spacing: -1.0344827175px;
+  color: #1D293F;
+  padding-bottom: 28px;
+}
+.cards h4::after {
+  content: "/month";
+  font-family: DM Sans;
+  font-size: 28px;
+  line-height: 56px;
+  letter-spacing: -1.0344827175px;
+}
+.cards .not::after {
+  content: "";
+}
+.cards button {
+  width: 285px;
+  height: 60px;
+  background-color: #FFFFFF;
+  border: 1px solid #EAE9F2;
+  border-radius: 10px;
+  color: #5454D4;
+}
+.cards button:hover {
+  background-color: #dfdfdf;
+}
+
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav__row, .header_row, .clients_row, .base_row, .bit_cards, .plan, .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
